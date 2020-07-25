@@ -2,13 +2,15 @@
 #include <stdlib.h>
 #include "lists.h"
 /**
-*
-*
-*
+*insert_node - Insert new node in a sorted single linked list
+*@head: pointer of first node of listint_t list
+*@number: integer to include in new node
+*Return: new node
 */
+
 listint_t *insert_node(listint_t **head, int number)
 {
-	listint_t *new_node, *aux1, * aux2;
+	listint_t *new_node, *aux1;
 
 	new_node = malloc(sizeof(listint_t));
 
@@ -19,6 +21,7 @@ listint_t *insert_node(listint_t **head, int number)
 
 	aux1 = *head;
 	new_node->n = number;
+
 	while (aux1->next != NULL && aux1->next->n < new_node->n)
 	{
 		aux1 = aux1->next;
