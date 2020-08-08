@@ -7,7 +7,7 @@ def minOperations(n):
     x = 1
     a = 0
     y = x
-    if n <= 2:
+    if n < 2:
         return 0
     else:
         for i in range(n):
