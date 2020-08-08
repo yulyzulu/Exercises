@@ -1,4 +1,4 @@
-#/usr/env python3
+#!/usr/env python3
 """Calculates minimum operations copy paste"""
 
 
@@ -10,7 +10,7 @@ def minOperations(n):
     if n <= 2:
         return 0
     else:
-        for i in range(n):           
+        for i in range(n):
             if x < n:
                 if n % x == 0:
                     x = x + x
