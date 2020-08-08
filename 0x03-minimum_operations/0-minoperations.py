@@ -13,10 +13,11 @@ def minOperations(n):
         for i in range(n):
             if x < n:
                 if n % x == 0:
-                    x = x + x
+                    y = x
+                    x = x + y
                     a = a + 2
-                    if x != 2:
-                        y = x
+#                    if x != 2:
+#                    y = x
                 else:
                     x = x + y
                     a = a + 1
