@@ -16,12 +16,8 @@ def minOperations(n):
                     y = x
                     x = x + y
                     a = a + 2
-#                    if x != 2:
-#                    y = x
                 else:
                     x = x + y
                     a = a + 1
-#            else:
-#                break
             if x == n:
                 return a
