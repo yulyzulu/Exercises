@@ -23,4 +23,5 @@ def minOperations(n):
                     a = a + 1
 #            else:
 #                break
-        return a
+            if x == n:
+                return a
