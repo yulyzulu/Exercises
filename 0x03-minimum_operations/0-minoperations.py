@@ -20,6 +20,6 @@ def minOperations(n):
                 else:
                     x = x + y
                     a = a + 1
-            else:
-                break
+#            else:
+#                break
         return a
