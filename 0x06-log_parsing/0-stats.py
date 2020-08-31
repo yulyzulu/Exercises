@@ -3,6 +3,7 @@
 import signal
 import sys
 
+
 def signal_fun(signal, fra):
     print('File size: {}'.format(size))
     for k, v in sorted(state.items()):
