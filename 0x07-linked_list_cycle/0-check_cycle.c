@@ -12,7 +12,7 @@ int check_cycle(listint_t *list)
 {
 	listint_t *tmp1 = list, *tmp2 = list;
 
-	while (tmp1 && tmp2)
+	while (tmp1 && tmp2 && tmp2->next)
 	{
 		tmp1 = tmp1->next;
 		tmp2 = tmp2->next->next;
