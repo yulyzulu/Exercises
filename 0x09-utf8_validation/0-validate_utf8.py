@@ -1,7 +1,9 @@
 #!/usr/bin/python3
+"""UTF8"""
 
 
 def validUTF8(data):
+    """Validation utf8"""
     n_bytes = 0
 
     for i in data:
