@@ -1,2 +1,1 @@
-# holbertonschool-interview
- Interview  Algorithms
+# Algorithms exercises
